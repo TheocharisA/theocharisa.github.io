@@ -1,4 +1,4 @@
 theme: jekyll-theme-merlot
 title: [Theocharis Apostolidis]
 description: []
-show_downloads: ["false"]
+show_downloads: [true]
