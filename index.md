@@ -6,8 +6,13 @@ My name is Theocharis Apostolidis and this is my Web Site.
 
 I am studying Information and Electronic Engineering in the International Hellenic University, Sindos department
 
+### Projects
 
-### Contact
+The current projects i have are going to be listed below:
+
+
+
+### Contact me
 
 You can find me on the links below
 
