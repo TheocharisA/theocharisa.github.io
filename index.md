@@ -10,7 +10,7 @@ I am studying Information and Electronic Engineering in the International Hellen
 
 The current projects i have are going to be listed below:
 
-[Project 1]()
+[Previous Site.](https://users.it.teithe.gr/~it185149/) Dont hate, it is all written by hand (HTML/CSS/JS)
 
 [Project 2]()
 
