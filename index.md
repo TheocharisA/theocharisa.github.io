@@ -1,5 +1,5 @@
-## Welcome to My Site
-My name is Theocharis Apostolidis and this is my Web Site.
+## Welcome to My Web Page
+My name is Theocharis Apostolidis and this is my Web Page.
 
 
 ### About me..
