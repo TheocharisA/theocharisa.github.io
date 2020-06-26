@@ -13,4 +13,6 @@ You can find me on the links below
 
 [Facebook](https://www.facebook.com/harisprodude)
 
-[Link](mailto:it185149@it.teithe.gr)
+[University Mail.](mailto:it185149@it.teithe.gr) Please do not contact there without a reason
+
+[Personal Mail.](mailto:theocharilaos@gmail.com) Contact me here for everything else
