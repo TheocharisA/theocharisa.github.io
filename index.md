@@ -10,9 +10,9 @@ I am studying Information and Electronic Engineering in the International Hellen
 
 The current projects i have are going to be listed below:
 
-[Project 1]
-[Project 2]
-[Project 3]
+[Project 1]()
+[Project 2]()
+[Project 3]()
 
 
 ### Contact me
