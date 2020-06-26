@@ -11,6 +11,6 @@ I am studying Information and Electronic Engineering in the International Hellen
 
 You can find me on the links below
 
-[Link](facebook.com/harisprodude)Facebook
+[Facebook](https://www.facebook.com/harisprodude)
 
 [Link](mailto:it185149@it.teithe.gr)
