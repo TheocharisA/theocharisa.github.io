@@ -1,4 +1,4 @@
-## Welcome to My Page
+## Welcome to My Site
 My name is Theocharis Apostolidis and this is my Web Site.
 I am studying Information and Electronic Engineering in the International Hellenic University, Sindos department
 
