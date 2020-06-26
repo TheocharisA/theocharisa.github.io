@@ -5,6 +5,8 @@ My name is Theocharis Apostolidis and this is my Web Site.
 ### About me..
 
 I am studying Information and Electronic Engineering in the International Hellenic University, Sindos department.
+I like coding, playing games, LEGO and solving riddles (e.g. i own some magic cubes 3x3x3, 4x4x4, megaminx and more).
+I enjoy tinkering with small electronics (not succesful most times :/) and hardware changes on my or my friends' computers.
 
 ### Projects
 
