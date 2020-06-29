@@ -14,7 +14,7 @@ I enjoy tinkering with small electronics (not succesful most times :/) and hardw
 
 The current projects i have are going to be listed below:
 
-[Previous Site.](https://users.it.teithe.gr/~it185149/) Dont hate, it is all written by hand (HTML/CSS/JS)
+[Previous Site.](https://users.it.teithe.gr/~it185149/) Dont hate, it is all written by hand (HTML/CSS/JS).
 
 [Project 2.]()
 
