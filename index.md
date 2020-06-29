@@ -1,5 +1,7 @@
 ## Welcome to My Web Page
-My name is Theocharis Apostolidis and this is my Web Page.![That is me! Shocking, I know](./test.png)
+My name is Theocharis Apostolidis and this is my Web Page.
+
+![That is me! Shocking, I know](./test.png)
 
 
 ### About me..
