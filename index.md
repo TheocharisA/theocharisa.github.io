@@ -16,7 +16,7 @@ The current projects i have are going to be listed below:
 
 [Previous Site.](https://users.it.teithe.gr/~it185149/) Dont hate, it is all written by hand (HTML/CSS/JS).
 
-[Atari Breakout in JS (still in production).](projects/AtariBreakout.html)
+[Atari Breakout in JS (still in production).](projects/atariBreakout.html)
 
 [Project 3.]()
 
