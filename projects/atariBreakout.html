@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Atari Breakout on JavaScript</title>
+</head>
+<br/>
+<body style="margin: 0; padding: 0; background-color: #ECE4D8;">
+
+<center>
+<canvas id="testCanvas" width="1050" height="700"
+style="display: block; border-radius: 25px">
+</canvas>
+</center>
+
+<script>
+//constants declaration.
+const canvas = document.getElementById("testCanvas");
+const ctx = canvas.getContext("2d");
+
+//variable declaration.
+var w = canvas.width;
+var h = canvas.height;
+var tid = 0;
+var clickedFlag = false;
+var gameBorderRight = canvas.width - canvas.width * 0.025;
+var gameBorderLeft = canvas.width * 0.025;
+var gameBorderBottom = canvas.height - 80;
+var gameBorderTop = 25;
+var paddleHeight = 10;
+var paddleWidth = 200;
+var paddleMargin = 5;
+var ballWidth = 15;
+
+//Constructor of the targets.
+function target () {
+	this.id = tid;
+	tid++;
+	this.margin = 3;
+	this.hidden = false;
+}
+target.prototype.draw = function() {this.color = "#FFFFFF"; this.hidden = false;};
+target.prototype.broken = function() {this.color = "#000000"; this.hidden = true;};
+target.prototype.getHidden = function() {return this.hidden;};
+target.prototype.getId = function() {return this.id;};
+var arr = [];
+
+//on widnow load fill the canvas black and write starting text.
+window.onload = function fill() {
+	clickToStart();
+	gameBoundries();
+	drawPaddle();
+	drawBall();
+	drawTargets();
+}
+
+//Blackens the screen and tells the user to click.
+function clickToStart () {
+	ctx.fillStyle = "#000000";
+	ctx.fillRect(0,0,canvas.width,canvas.height);
+	ctx.fillStyle = "#FFFFFF";
+
+
+	//ctx.textAlign = "center";
+	//ctx.font = "25px Arial";
+	//ctx.fillText("Welcome to Atari Breakout, Click to start.", w/2, h/2);
+	//canvas.addEventListener('click', clicked); //help here, does not work.
+}
+
+//Creates a line showing the game boundries
+function gameBoundries() {
+	
+	ctx.strokeStyle = "#FFFFFF";
+	ctx.lineWidth = 1.5;
+	ctx.beginPath();
+	ctx.moveTo(gameBorderLeft, gameBorderTop);
+	ctx.lineTo(gameBorderLeft, gameBorderBottom);
+	ctx.lineTo(gameBorderRight, gameBorderBottom);
+	ctx.lineTo(gameBorderRight, gameBorderTop);
+	ctx.lineTo(gameBorderLeft, gameBorderTop);
+	ctx.stroke();
+	
+}
+
+//Draws the paddle
+function drawPaddle () {
+	ctx.fillStyle = "#FFFFFF";
+	ctx.fillRect(gameBorderRight/2 - paddleWidth/2 + paddleMargin, gameBorderBottom - paddleHeight - paddleMargin, paddleWidth, paddleHeight);
+}
+
+//Draws the ball
+function drawBall () {
+	ctx.strokeStyle = "#FFFFFF";
+	ctx.lineWidth = ballWidth;
+	ctx.beginPath();
+	ctx.arc(gameBorderRight/2, gameBorderBottom * 0.85, 3, 0, 2 * Math.PI);
+	ctx.stroke();
+}
+
+//Activates when the user clicks to start the game.
+function clicked () {
+	if (clickedFlag) {
+		alert("works");
+		canvas.addEventListener('click');
+	}
+}
+</script>
+
+</body>
+</html>
