@@ -1,7 +1,7 @@
 ## Welcome to My Web Page
 My name is Theocharis Apostolidis and this is my Web Page.
 
-![Hmmm, there should be a picture of me here.. I smell mystery, *snif* *snif*..](resume.jpeg)
+![Hmmm, there should be a picture of me here.. I smell mystery, *snif* *snif*..](resume.png)
 
 
 ### About me..
