@@ -14,12 +14,14 @@ var headH;
 var isFoodSpawned;
 var snakeLength;
 var myInterval;
+var windowX;
 
 window.onload = function starting() {
     //Init canvas with black color
     ctx.fillStyle = "black";
     ctx.fillRect(0,0,800,600);
-
+    
+    
     for (w=0; w<38; w++) {
         gameMatrix[w] = new Array(2);
         gameLocationMatrixX[w] = new Array(2);
@@ -43,7 +45,10 @@ window.onload = function starting() {
     canvas.addEventListener("mousedown", function clickCheck(evt) {
         var x = evt.clientX;
         var y = evt.clientY;
-        if ( y<365 && y>340 && x>380 && x <420) {
+        
+        windowX = window.screen.availWidth;
+        var offset = (windowX - 800)/2
+        if ( y<390 && y>365 && x>380+offset && x <420+offset) {
             startGame();
             canvas.removeEventListener("mousedown", clickCheck);
         }
