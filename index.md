@@ -18,7 +18,7 @@ The current projects i have are going to be listed below:
 
 [Atari Breakout in JS (still in production).](projects/atariBreakout.html)
 
-[Project 3.]()
+[SNEK.](projects/snek.html)
 
 
 ### Contact me.
