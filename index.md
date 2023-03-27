@@ -14,12 +14,13 @@ I enjoy tinkering with small electronics (not succesful most of the times :/) an
 
 The current projects i have are going to be listed below:
 
-[Previous Site.](https://users.it.teithe.gr/~it185149/) Dont hate, it is all written by hand (HTML/CSS/JS).
+[Wake on LAN via WAN](https://github.com/TheocharisA/Wake-on-WAN-MP)
 
 [Atari Breakout in JS (still in production).](projects/atariBreakout.html)
 
-[SNEK.](projects/snek.html)
+[SNEK.](projects/snek.html)  
 
+[Previous Site.](https://users.it.teithe.gr/~it185149/) Dont hate, it is all written by hand (HTML/CSS/JS).  
 
 ### Contact me.
 
